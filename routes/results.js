@@ -9,7 +9,7 @@ router.get("/results",function(req, res){
     // Randomize url to prevent caching of url for api
     randomNum = Math.floor(Math.random() * (9999999 -1000 + 1)) + 1000;
 
-    var url = "https://api.audd.io/?url=" + "https://secret-beyond-86077.herokuapp.com/music?" + randomNum + "&return=lyrics"
+    var url = "https://api.audd.io/?url=" + "https://aqueous-shore-64298.herokuapp.com/music?" + randomNum + "&return=lyrics"
 
 
     request(url, function(error,response,body){
