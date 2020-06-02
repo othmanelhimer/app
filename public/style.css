@@ -62,12 +62,8 @@ h2{
 	/*border-style: solid;
     */
 }
-.mic{
-	background-image: url('mic.png');
-	background-size: cover;
-}
+
 .main-text{
-	font-family: 'Kingthings_Trypewriter_2';
 	font-size: 45px
 }
 #song {
@@ -75,7 +71,7 @@ h2{
 }
 .text{
 	font-family: 'Inconsolata', monospace;
-	color: #0d47a1;
+	color: black;
 }
 .button{
 	color: #424242;
