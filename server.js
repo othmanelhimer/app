@@ -26,7 +26,7 @@ app.post('/upload', function(req, res) {
     audiodata.mv('views/upload/audio.ogg', function(err) {
         if (err) {
             console.log("here");
-            return res.status(500).send(error);
+            return res.status(500).send(err);
         }
         res.send('File uploaded!');
     });
