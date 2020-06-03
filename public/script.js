@@ -56,7 +56,7 @@ function makeLink(){
     hf.download = `${counter++}.ogg`;
     hf.innerHTML = `Download ${hf.download}`;
     li.appendChild(au);
-    li.appendChild(hf);
+    //li.appendChild(hf);
     ul.appendChild(li);
     var xhr=new XMLHttpRequest();
     xhr.onload=function(e) {
