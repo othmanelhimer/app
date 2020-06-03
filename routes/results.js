@@ -14,6 +14,7 @@ router.get("/results",function(req, res){
 
     request(url, function(error,response,body){
         var data=JSON.parse(body);
+        console.log(data.status);
         if(data.status == "error") {
             res.render("error") ;
         }
